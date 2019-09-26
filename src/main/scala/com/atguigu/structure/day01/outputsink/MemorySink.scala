@@ -2,8 +2,8 @@ package com.atguigu.structure.day01.outputsink
 
 import java.util.{Timer, TimerTask}
 
+import org.apache.spark.sql.streaming.StreamingQuery
 import org.apache.spark.sql.{DataFrame, SparkSession}
-import org.apache.spark.sql.streaming.{StreamingQuery, Trigger}
 
 object MemorySink {
   def main(args: Array[String]): Unit = {
