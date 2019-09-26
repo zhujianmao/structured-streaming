@@ -1,4 +1,4 @@
-package com.atguigu.structure.day01.source.rate
+package com.atguigu.structure.day01.inputsource.rate
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
 

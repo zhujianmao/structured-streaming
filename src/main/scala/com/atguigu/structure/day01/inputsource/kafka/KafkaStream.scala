@@ -1,4 +1,4 @@
-package com.atguigu.structure.day01.source.kafka
+package com.atguigu.structure.day01.inputsource.kafka
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.streaming.Trigger

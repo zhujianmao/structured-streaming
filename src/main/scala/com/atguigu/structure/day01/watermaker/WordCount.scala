@@ -43,6 +43,7 @@ object WordCount {
 
                       wordCount.writeStream
                                 .format("console")
+                               // .outputMode("update")
                                 .outputMode("append")
                                 .trigger(Trigger.ProcessingTime(1000))
                                 .option("truncate", value = false)

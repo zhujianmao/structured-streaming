@@ -1,4 +1,4 @@
-package com.atguigu.structure.day01.source.socket
+package com.atguigu.structure.day01.inputsource.socket
 
 import org.apache.spark.sql.streaming.{StreamingQuery, Trigger}
 import org.apache.spark.sql.{DataFrame, SparkSession}
